@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registration Form</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+    <div id="main">
+        <form action="reg" method="post">
+            <table >
+                <caption>User Registration</caption>
+                <tr>
+                    <td>Username</td>
+                    <td>: <input type="text" name="uname" placeholder="Enter Username" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>: <input type="password" name="pass" placeholder="Enter Password" required></td>
+                </tr>
+                <tr>
+                    <td>First Name</td>
+                    <td>: <input type="text" name="fname" placeholder="Enter First Name" required></td>
+                </tr>
+                <tr>
+                    <td>Last Name</td>
+                    <td>: <input type="text" name="lname" placeholder="Enter Last Name" required></td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>: <input type="text" name="city" placeholder="Enter City Name" required></td>
+                </tr>
+                <tr>
+                    <td>Mail Id</td>
+                    <td>: <input type="text" name="mail" placeholder="Enter MailId" required></td>
+                </tr>
+                <tr>
+                    <td>Phone No</td>
+                    <td>: <input type="number" name="phno" placeholder="Enter Phone Number" required></td>
+                </tr>                
+            </table>
+            <div id="btn">
+                <input type="submit" value="Register" class="button">
+            </div>
+            <br>
+            <a href="login.html" id="ac">Already Registered?</a>
+        </form>
+    </div>
+</body>
+</html>
