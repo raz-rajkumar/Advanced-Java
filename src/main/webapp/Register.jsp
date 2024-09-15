@@ -14,6 +14,6 @@
 	out.println(msg+"<br>");
 	%>
 </div>
-<%@include file="login.html" %>
+<%@include file="index.html" %>
 </body>
 </html>
